@@ -12,7 +12,7 @@ function App() {
   );
 
   // ref hook
-  const passRef = useRef(null);
+  // const passRef = useRef(null);
 
   const copyToClip = useCallback(() => {
     window.navigator.clipboard.writeText(password);
@@ -48,7 +48,7 @@ function App() {
           className="outline-none w-full py-1 px-3"
           placeholder="Password"
           readOnly
-          ref={passRef}
+          // ref={passRef}
         ></input>
         <button
           onClick={() => {
